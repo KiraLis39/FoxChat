@@ -1,0 +1,29 @@
+package registry;
+
+public class IOMs {
+
+	public static enum CONFIG {
+		RENDER_ON, 
+		USE_UI_STYLE, 
+		SHOW_LEFT_PANEL, 
+		SHOW_USERS_PANEL, 
+		BKG_DRAW_STYLE, 
+		UI_STYLE, 
+		BKG_PATH, 
+		SOUNDS_ENABLED, 
+		ANIMATION_ENABLED, 
+		USE_DIALOGPANE_OPACITY, 
+		AFK_TIME_SEC, 
+		DEBUG_GRAPHICS, 
+		MSG_SEND_TYPE, 
+		LOAD_HISTORY_LINES
+	}
+
+	public static enum LUSER {
+		LAST_USER,
+		LAST_PASSWORD,
+		LAST_IP, 
+		LAST_PORT, 
+		KEEP_PASS
+	}
+}
